@@ -1,0 +1,43 @@
+* {
+    font-family: "calibri";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.encabezado {
+    margin: auto;
+    background: #DCDCDC;
+    padding: 20px;
+    border-bottom: 4px solid #778899;
+}
+
+#titp {
+    padding-left: 175px;
+}
+
+#titulo {
+    color: #32CD32;
+}
+
+.cuerpo {
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+}
+
+#img {
+    text-align: center;
+}
+
+.padre {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-gap: 20px;
+}
+
+#pie {
+    margin-bottom: 50px;
+}
